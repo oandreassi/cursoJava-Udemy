@@ -40,7 +40,6 @@ public class Worker {
         return sum;
     }
 
-
     public String getName() {
         return name;
     }

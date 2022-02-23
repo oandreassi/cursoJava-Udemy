@@ -1,4 +1,4 @@
-package com.company.EnumsEComposicoes.Ex1.Aplication;
+package com.company.EnumsEComposicoes.Ex1.Application;
 
 import com.company.EnumsEComposicoes.Ex1.Entities.Department;
 import com.company.EnumsEComposicoes.Ex1.Entities.HourContract;
@@ -26,3 +26,4 @@ public class Ex1Application {
         System.out.println("Income for: " + month + "/" + year + ": " + sum);
     }
 }
+
