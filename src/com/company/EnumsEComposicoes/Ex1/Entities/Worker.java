@@ -25,34 +25,20 @@ public class Worker {
         contracts.add(contract);
     }
 
-    public void removeContract(HourContract contract){
+    public void removeContract(HourContract contract) {
         contracts.remove(contract);
     }
 
-    public double income(int year, int month){
+    public double income(int year, int month) {
         double sum = baseSalary;
 
-        for(HourContract c : contracts){
+        for (HourContract c : contracts) {
             if (c.getDate().getYear() == year && c.getDate().getMonthValue() == month) {
                 sum += c.totalValue();
             }
         }
         return sum;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public String getName() {
