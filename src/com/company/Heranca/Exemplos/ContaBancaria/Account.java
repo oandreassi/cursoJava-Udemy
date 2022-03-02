@@ -20,7 +20,7 @@ public class Account {
     }
 
     public void deposit(double amount) {
-        balance += amount;
+        balance += amount + 5.00;
     }
 
     public int getNumber() {
