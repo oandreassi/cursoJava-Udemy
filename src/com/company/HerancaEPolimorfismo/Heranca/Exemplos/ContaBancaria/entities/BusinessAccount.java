@@ -1,4 +1,4 @@
-package com.company.Heranca.Exemplos.ContaBancaria;
+package com.company.HerancaEPolimorfismo.Heranca.Exemplos.ContaBancaria.entities;
 
 public class BusinessAccount extends Account{
 

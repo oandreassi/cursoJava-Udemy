@@ -1,4 +1,8 @@
-package com.company.Heranca.Exemplos.ContaBancaria;
+package com.company.HerancaEPolimorfismo.Heranca.Exemplos.ContaBancaria;
+
+import com.company.HerancaEPolimorfismo.Heranca.Exemplos.ContaBancaria.entities.Account;
+import com.company.HerancaEPolimorfismo.Heranca.Exemplos.ContaBancaria.entities.BusinessAccount;
+import com.company.HerancaEPolimorfismo.Heranca.Exemplos.ContaBancaria.entities.SavingsAccount;
 
 public class AccountApp {
     public static void main(String[] args) {
