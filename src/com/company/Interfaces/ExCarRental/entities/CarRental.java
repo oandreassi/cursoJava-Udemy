@@ -1,4 +1,4 @@
-package com.company.Interfaces.entities;
+package com.company.Interfaces.ExCarRental.entities;
 
 import java.util.Date;
 

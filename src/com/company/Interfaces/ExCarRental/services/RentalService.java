@@ -1,7 +1,7 @@
-package com.company.Interfaces.services;
+package com.company.Interfaces.ExCarRental.services;
 
-import com.company.Interfaces.entities.CarRental;
-import com.company.Interfaces.entities.Invoice;
+import com.company.Interfaces.ExCarRental.entities.CarRental;
+import com.company.Interfaces.ExCarRental.entities.Invoice;
 
 public class RentalService {
 

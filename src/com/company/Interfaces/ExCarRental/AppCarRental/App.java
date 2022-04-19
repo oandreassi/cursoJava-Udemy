@@ -1,9 +1,9 @@
-package com.company.Interfaces.AppCarRental;
+package com.company.Interfaces.ExCarRental.AppCarRental;
 
-import com.company.Interfaces.entities.CarRental;
-import com.company.Interfaces.entities.Vehicle;
-import com.company.Interfaces.services.BrazilTaxService;
-import com.company.Interfaces.services.RentalService;
+import com.company.Interfaces.ExCarRental.entities.CarRental;
+import com.company.Interfaces.ExCarRental.entities.Vehicle;
+import com.company.Interfaces.ExCarRental.services.BrazilTaxService;
+import com.company.Interfaces.ExCarRental.services.RentalService;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -43,7 +43,5 @@ public class App {
         System.out.println("Total payment: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
 
         sc.close();
-
-
     }
 }
