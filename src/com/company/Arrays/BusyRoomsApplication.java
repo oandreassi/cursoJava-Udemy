@@ -9,7 +9,6 @@ public class BusyRoomsApplication {
         Locale.setDefault(Locale.US);
 
         int roomsQuantity =10;
-
         Rent[] rent = new Rent[roomsQuantity];
 
         for (int i = 0; i < roomsQuantity; i++) {
