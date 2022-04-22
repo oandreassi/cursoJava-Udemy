@@ -13,7 +13,7 @@ import java.util.Set;
 
 public class Program {
 
-    static final String CAMINHO_DO_ARQUIVO = "Arquivos\\logsEntrada.txt";
+    public static final String CAMINHO_DO_ARQUIVO = "Arquivos\\logsEntrada.txt";
     public static void main(String[] args) {
 
         String path = CAMINHO_DO_ARQUIVO;
@@ -30,8 +30,8 @@ public class Program {
 
                 lineArq = br.readLine();
             }
-            System.out.println("Total Users: " + set.size());
 
+            System.out.println("Total Users: " + set.size());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
